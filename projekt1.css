@@ -1,0 +1,117 @@
+body {
+	background-image: url("bakgrund.jpg"); /* grundbakgrundsbild */
+	background-color: #333;	/* grundbakgrundsfärg */
+	margin: 0px 240px;/* "krymper" den gråa kroppen*/
+	background-position: center top; /* centrerar */
+    background-size: 100%; /* Gör så att bakgrundsbilden täcker hela skärmen */
+    background-attachment: fixed; /* Fäster bilden */
+}
+* {
+	font-family: verdana; /* Väljer vilken font allt ska skrivas i*/
+}
+#head {
+	margin: 0px 0px; /* Tar bort all extra yta */
+	background-color: #A0A0A0; /* Bakgrundsfärg */
+	background-position: center top; /* Bestämmer posistion */
+}
+#menu {
+	text-align: center; /* Centrerar texten */
+	font-size: 30px; /* Sätter så att texten blir 30 pixlar */
+	text-decoration: none; /* Raderar all typ av dekoration, såsom sträcket under osv */
+}
+#menu-inside {
+	background-color: rgba(30, 34, 30, 0.7); /*Fixade färgen*/
+	display: inline-block; /* Bestämmer att det ska vara ett block kring min menu-inside */
+	padding: 10px 35px; /* Lägger till extra space utanpå som går att trycka på */
+	border-radius: 0px 0px 15px 15px; /* Rundarna kanterna */
+	border-right: 1.15px;
+	border-bottom: 1.15px;
+	border-right: 1.15px;
+}
+#menu a:hover { /* Allt under händer när man har muspekarn på det */
+	font-size: 30px; /* Väljer hur stor fonten ska vara */
+	color: #606060; /* Väljer färgen för texten */
+	text-decoration: none; /* Tar bort all typ av dekoration, såsom linjer under länkar osv */
+	transition: all 0.2s; /* Gör så att den "fadar" lite, så att den inte är så direkt */
+}
+#menu a { /* Väljer inställningarna för länkarna */
+	text-decoration: none;
+	color: #A0A0A0;
+	margin: 13px;
+	display: inline-block;
+}
+#main { /* Väljer inställningarna för min main div */
+	background-color: rgba(30, 34, 30, 0.8);/* Fixar den gråa genomskinliga färgen */
+	background-position: center top; /* Fixar positionen till mitten av toppen */
+    background-attachment: fixed; /* "Fryser" bakgrundsbilden */
+	border-right: 1.15px solid; /* Fixar en kant */
+	border-left: 1.15px solid; /* Fixar en kant */
+	border-bottom: 1.15px solid; /* Fixar en kant */
+	border-radius: 0px 0px 15px 15px; /* Rundar kanterna */
+}
+#center { /* Speciella inställningar för min center div */
+	margin: 0px 25px; /* Lämnar space */
+	min-height: 95vh; /* Gör den översta gråa rutan */
+	text-align: center; /* Centrerar texten */
+}
+#centerbild img { /* Inställningarna för mina img´s (bilder) i min centerbild div */
+	max-width: 80%;
+	min-width: 80%;
+	margin: 15px;
+	border-radius: 15px;
+}
+#centerbild {
+	text-align: center; /*Centrerar alla bilder*/
+}
+#leftcenter { /* Inställningarna för min vänsterkolumn, alltså min div */
+	color: #A0A0A0;
+	margin:20px 0px 40px 0px;
+	width:50%; /* Gör så att den bara tar upp halva av den möjliga ytan */
+	text-align:center; /* Centrerar all text */
+	display: inline-block;
+	vertical-align: top;
+}
+#leftcenter iframe { /* Inställningarna för mina iframes i diven leftcenter */
+    border-radius: 15px;
+    overflow: hidden;
+	width: 90%;
+	height: 245px;
+}
+#rightcenter { /* Inställningarna för min högerkolumn, alltså min div */
+	color: #A0A0A0;
+	margin:20px 0px 40px 0px;
+	width:49%;
+	text-align:center;
+	display: inline-block;
+	vertical-align: top;
+}
+#rightcenter iframe { /* Inställningarna för mina iframes i diven rightcenter */
+    border-radius: 15px;
+    overflow: hidden; /* Tar bort alla scroll-listor */
+	width: 90%;
+	height: 245px;
+}
+.currentpage {
+	color: #000!important; /*Sätter färg på den sidan man befinner sig på*/
+}
+#bottom {
+	min-height: 15vh; /* Gör den nedersta gråa rutan */
+	background-color: rgba(30, 34, 30, 0.8); /*Fixade färgen*/
+	border: 1.15px solid; /* Sätter en smal border */
+	border-radius: 15px; /* Rundar kanterna */
+	margin-top: 15px; /* Lämnar space där uppe */
+	margin-bottom: 55px; /* Lämnar space där nere */
+	text-align: center; /*Centrerar texten*/
+}
+h2 {
+	color: #fff; /*Färg*/
+}
+h3 {
+	color: #fff; /*Färg*/
+}
+h5 {
+	color: #fff; /*Färg*/
+}
+p {
+	color: #bbb; /*Färg*/
+}
